@@ -12,6 +12,6 @@ describe('example to-do app', () => {
         cy.get("#submit").click();
         cy.get("#example-modal-sizes-title-lg").should("exist");
         cy.get('#closeLargeModal').click()
-        // console.log(cy.get("#closeLargeModal"))
+        
     })
 })
